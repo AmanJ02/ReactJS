@@ -1,18 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './Components/App';
-// import App1 from './Slot Machine/App1';
-import Form from './Forms/Form';
+
+// import App from './Components/App';                       // Netflix Cards App
 // import './index.css';
+
+// import Form from './Forms/Form';                       // Login Form
+// import './Forms/form.css';
+
+// import App1 from './Slot Machine/App1';                // Slot Machine Game
 // import './Slot Machine/slot.css';
-import './Forms/form.css';
+
+import ToDo from './ToDo List/ToDo';                   // ToDo App
+import './ToDo List/todo.css';
 
 
 ReactDOM.render(                                                            
 
-  // <App1 />,
-  // <App />,
-  <Form />,
+  // <App />,                                     // Netflix Cards App
+
+  // <App1 />,                                    // Slot Machine Game
+  
+  // <Form />,                                    // Login Form
+
+  <ToDo />,                                    // ToDo App
 
   document.getElementById("root")
 );

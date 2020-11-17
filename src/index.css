@@ -98,7 +98,12 @@ button {
   }
 }
 
-button {
+/* ----------------------------------------------------- */
+
+
+/* MULTIPLE BUTTONS CSS */
+
+/* button {
   padding: 20px 20px;
   background: #9b59b6;
   color: white;
@@ -109,7 +114,6 @@ button {
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
-  /* margin-top: 25px; */
 }
 
 div {
@@ -126,4 +130,5 @@ h1 {
   color:  white;
   background: transparent;
   text-shadow: 0 2px 2px black;
-}
+} 
+*/
