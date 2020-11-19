@@ -20,9 +20,8 @@ const ToDo = () => {
     const deleteItems = (id) => {
         console.log('Deleted');
         setItems((oldItems) => {
-            return oldItems.filter((arrElem, index) => {
-                return index !== id;
-
+            return oldItems.filter((arrElem, index) => {                                 // Callback Function 
+                return index !== id;                                                     // Deleting an item from an array
             });
         });
     };
@@ -43,7 +42,9 @@ const ToDo = () => {
                     <button onClick = {listOfItems}> + </button>
 
                     <ol>
-                        {/* <li> {inputList} </li> */}
+
+                        {/* Array mapping with callback function*/}
+
                         {items.map( (itemval, index) => {
                            return <ToDoList 
                             key = {index}

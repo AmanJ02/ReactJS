@@ -10,19 +10,24 @@ import ReactDOM from 'react-dom';
 // import App1 from './Slot Machine/App1';                // Slot Machine Game
 // import './Slot Machine/slot.css';
 
-import ToDo from './ToDo List/ToDo';                   // ToDo App
-import './ToDo List/todo.css';
+// import ToDo from './ToDo List/ToDo';                   // ToDo App
+// import './ToDo List/todo.css';
+
+import IncrDecr from './Components/IncrDecr';             // Increment Decrement App
+import './Components/incdec.css';
 
 
 ReactDOM.render(                                                            
 
-  // <App />,                                     // Netflix Cards App
+  // <App />,                                       // Netflix Cards App
 
-  // <App1 />,                                    // Slot Machine Game
+  // <App1 />,                                      // Slot Machine Game
   
-  // <Form />,                                    // Login Form
+  // <Form />,                                      // Login Form
 
-  <ToDo />,                                    // ToDo App
+  // <ToDo />,                                     // ToDo App
+
+  <IncrDecr />,                                   // Increment Decrement App
 
   document.getElementById("root")
 );
