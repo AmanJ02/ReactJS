@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
@@ -12,7 +12,7 @@
 .main_div {
     width: 100%;
     height: 100vh;
-    background: #778ca3;
+    background: #05c46b;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -23,9 +23,9 @@
 .center_div {
     width: 25%;
     height: 50vh;
-    background: #182C61;
+    background: #ffffff;
     border-radius: 15px;
-    box-shadow: 5px 5px 15px -10px rgba(0, 0, 0, 1);
+    box-shadow: 5px 10px 15px -3px rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,15 +33,14 @@
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 60px;
-    width: 100%;
-    background: transparent;
-    background-color: #e67e22;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3.5px 3.5px #ced6e0;
     padding: 6px 0 2px 0;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    margin-bottom: 60px;
+    /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); */
 }
 
 
@@ -61,23 +60,22 @@ input {
 button {
     margin-top: 40px;
     min-height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    border-color: transparent;
-    background-color: #e67e22;
-    color: white;
+    color: hotpink;
     font-size: 40px;
-    font-weight: bold;
     border: none;
     outline: none;
     padding: 0 15px;
     margin-left: 60px;
     margin-right: 60px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 10px 15px -3px rgba(0, 0, 0, 0.6);
 }
 
-button:hover {
-    background-color: #20bf6b;
+.btn_green:hover {
+    color: #009432;
+}
+
+.btn_red:hover {
+    color: #d63031;
 }
 
 .btn_div { 

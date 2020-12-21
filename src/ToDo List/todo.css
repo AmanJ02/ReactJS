@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
@@ -29,12 +29,14 @@
 }
 
 h1 {
-    color: white;
-    background: transparent;
-    background-color: #8566aa;
+    /* color: white; */
+    /* background: transparent;
+    background-color: #8566aa; */
+    font-family: 'Roboto', sans-serif;
     padding: 6px 0 2px 0;
     margin-bottom: 10px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 3px #aab3be;
+    /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); */
 }
 
 input {
@@ -50,22 +52,22 @@ input {
     outline: none;
 }
 
-button {
+.newBtn {
     min-height: 40px;
-    width: 45px;
-    border-radius: 50%;
+    width: 40px;
+    border-radius: 70%;
     border-color: transparent;
-    background-color: #8566aa;
-    color: #fff;
+    background-color: blue;
+    /* color: #20bf6b; */
     font-size: 40px;
-    border: none;
+    /* border: none; */
     outline: none;
-    margin-left: 10px;
+    margin-left: 20px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
-button:hover {
-    background-color: #20bf6b;
+.newBtn:hover {
+    background-color: green;
 }
 
 ol {

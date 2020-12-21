@@ -63,3 +63,8 @@ const ToDo = () => {
 
 
 export default ToDo;
+
+
+
+// cutline method is use for strikethrough the text
+// strike() is also used for this purpose only

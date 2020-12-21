@@ -10,12 +10,18 @@ import ReactDOM from 'react-dom';
 // import App1 from './Slot Machine/App1';                // Slot Machine Game
 // import './Slot Machine/slot.css';
 
-// import ToDo from './ToDo List/ToDo';                   // ToDo App
+// import ToDo from './ToDo List/ToDoList';                   // ToDo App
 // import './ToDo List/todo.css';
 
-import IncrDecr from './Components/IncrDecr';             // Increment Decrement App
-import './Components/incdec.css';
+// import IncrDecr from './Components/IncrDecr';             // Increment Decrement App
+// import './Components/incdec.css';
 
+// import WebPage from './WebPage';
+
+// import Keep from './Google Keep/Keep';
+// import './Google Keep/keep.css';
+
+import Pokémon from './Pokémon/Pokémon';
 
 ReactDOM.render(                                                            
 
@@ -27,7 +33,13 @@ ReactDOM.render(
 
   // <ToDo />,                                     // ToDo App
 
-  <IncrDecr />,                                   // Increment Decrement App
+  // <IncrDecr />,                                 // Increment Decrement App
+
+  // <WebPage />,
+
+  // <Keep />,                                         // Google Keep App Clone
+
+  <Pokémon />,
 
   document.getElementById("root")
 );
